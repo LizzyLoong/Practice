@@ -66,7 +66,7 @@ sudo apt-get install libx11-dev
 
 
 ### 游戏执行
-#### 1.游戏应用包下载链接
+#### 1.游戏应用包下载
 https://archive.org/details/terraria-v-1.4.4.9-v-4-gog-linux-v-60321-gui   
 下载7-zip版本   
 ##### 2.解压压缩包与安装游戏

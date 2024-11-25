@@ -66,7 +66,7 @@ sudo apt-get install libx11-dev
 
 
 ### 游戏执行
-#### 1.游戏应用包下载链接
+#### 1.游戏应用包下载
 [link https://archive.org/details/bastion-bonus-v-1.50436-29.08.2018-linux-gog]https://archive.org/details/bastion-bonus-v-1.50436-29.08.2018-linux-gog   
 下载7-zip版本
 ##### 2.解压压缩包
