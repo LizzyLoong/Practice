@@ -36,12 +36,13 @@
 
 5. `chmod +x 游戏包中的start.sh`
 
-6. 运行游戏
-'''
-# 运行 Bastion
-box64 ./start.sh
-# 运行 Bastion加上帧数显示
-GALLIUM_HUD=fps box64 ./start.sh
-# 运行 Bastion终端打印帧数
-LIBGL_FPS=1 box64 ./start.sh
-'''
+6. 运行游戏   
+
+   ```
+   # 运行 Bastion
+   box64 ./start.sh
+   # 运行 Bastion加上帧数显示
+   GALLIUM_HUD=fps box64 ./start.sh
+   # 运行 Bastion终端打印帧数
+   LIBGL_FPS=1 box64 ./start.sh   
+   ```

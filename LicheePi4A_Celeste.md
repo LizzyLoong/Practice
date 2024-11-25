@@ -37,11 +37,11 @@
 5. `chmod +x 游戏包中的start.sh`
 
 6. 运行游戏
-'''
-# 运行 Celeste
-box64 ./Celeste.bin.x86_64
-# 运行 Celeste加上帧数显示
-GALLIUM_HUD=fps box64 ./Celeste.bin.x86_64
-# 运行 Celeste终端打印帧数
-LIBGL_FPS=1 box64 ./Celeste.bin.x86_64
-'''
+   ```
+   # 运行 Celeste
+   box64 ./Celeste.bin.x86_64
+   # 运行 Celeste加上帧数显示
+   GALLIUM_HUD=fps box64 ./Celeste.bin.x86_64
+   # 运行 Celeste终端打印帧数
+   LIBGL_FPS=1 box64 ./Celeste.bin.x86_64
+   ```

@@ -35,13 +35,13 @@
 5. `chmod +x 游戏包中的start.sh`
 
 6. 运行游戏
-'''
-# 运行 Terraria
-box64 ./start.sh
-# 运行 Terraria加上帧数显示
-GALLIUM_HUD=fps box64 ./start.sh
-# 运行 Terraria终端打印帧数
-LIBGL_FPS=1 box64 ./start.sh
-'''
+   ```
+   # 运行 Terraria
+   box64 ./start.sh
+   # 运行 Terraria加上帧数显示
+   GALLIUM_HUD=fps box64 ./start.sh
+   # 运行 Terraria终端打印帧数
+   LIBGL_FPS=1 box64 ./start.sh
+   ```
 
 7. 运行加载过程有明显卡顿，加载完成后游玩较为卡顿

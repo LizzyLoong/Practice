@@ -38,13 +38,13 @@
 
 6. 运行游戏   
 
-'''
-# 运行 Kingdom Rush
-box64 ./start.sh
-# 运行 Kingdom Rush加上帧数显示
-GALLIUM_HUD=fps box64 ./start.sh
-# 运行 Kingdom Rush终端打印帧数
-LIBGL_FPS=1 box64 ./start.sh
-'''
+   ```
+   # 运行 Kingdom Rush
+   box64 ./start.sh
+   # 运行 Kingdom Rush加上帧数显示
+   GALLIUM_HUD=fps box64 ./start.sh
+   # 运行 Kingdom Rush终端打印帧数
+   LIBGL_FPS=1 box64 ./start.sh
+   ```
 
 7. 运行现象：偶有闪退
