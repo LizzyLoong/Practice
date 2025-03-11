@@ -1,7 +1,7 @@
 # anaconda 
 ## 第一步：安装ubuntu主机系统或虚拟机系统   
 ## 第二部：安装Anaconda3   
-在清华源网址下载Anaconda3-2021-11-Linux-x86_64.sh   
+在清华源网址下载Anaconda3-2021.11-Linux-x86_64.sh   
 【清华源】https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/    
 Ctrl+F Anaconda3-2021.11-Linux-x86_64.sh   
 点击直接下载   
@@ -16,7 +16,7 @@ Ctrl+F Anaconda3-2021.11-Linux-x86_64.sh
 ```export PATH="/home/<Username>/anaconda3/bin:$PATH"```
 这里需要把<Username>替换成你的用户名
 我就是
-```export PATH="/home/ubuntu2204/anaconda3/bin:$PATH"```
+```export PATH="/home/lizzy/anaconda3/bin:$PATH"```
 保存后退出
 然后输入
 ```source ~/.bashrc```
@@ -65,6 +65,14 @@ conda create -n My_torch python=3.10
 source activate My_torch
 ```
 ## 第六步：finish
+启用虚拟环境
+```
+conda activate <自定义的环境名称>
+```
+例如：
+```
+conda activate My_torch
+```
 
 
 # yolo
@@ -72,9 +80,9 @@ source activate My_torch
 在linux中打开火狐浏览器里输入pytorch官网用来获取下载指令
 【Pytorch官网】https://pytorch.org/
 打开网站后往下拉就会有，
-选择conda版本，选择cpu版本，下面得到安装命令
+选择pip版本，选择cpu版本，下面得到安装命令
 ```
-conda install pytorch torchvision torchaudio cpuonly -c pytorch
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 ```
 ## 2.下载yolo
 https://gitee.com/monkeycc/yolov5   
@@ -98,3 +106,19 @@ pip install -U -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 打开detect.py文件
 设置python解释器，选择My_torch
 点击运行，可以看到输出
+
+
+
+
+
+
+
+
+
+
+
+
+
+# yoloV11
+https://blog.csdn.net/StopAndGoyyy/article/details/143169639
+https://github.com/ultralytics/ultralytics

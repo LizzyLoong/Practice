@@ -1,6 +1,7 @@
-安装yolo
-打开ubuntu
-首先安装anaconda
+大家好，这期视频给大家展示YOLO的安装
+打开ubuntu 首先安装anaconda
+
+
 在哪里下载都可以
 这里选择清华园镜像
 
@@ -16,9 +17,9 @@ sudo vim ~/.bashrc
 在文件末尾添加如下内容
 export PATH="/home/<Username>/anaconda3/bin:$PATH"
 这里需要把<Username>替换成你的用户名
-我就是
-export PATH="/home/ubuntu2204/anaconda3/bin:$PATH"
-保存后退出
+
+
+
 保存后退出
 然后输入
 source ~/.bashrc
@@ -38,16 +39,18 @@ source activate My_torch
 
 现在来安装pytorch
 输入pytorch官网用来获取下载指令
-打开网站后往下拉就会有，
-选择conda版本，选择cpu版本，下面得到安装命令
-conda install pytorch torchvision torchaudio cpuonly -c pytorch
+打开网站后往下拉就会有 选择pip版本
+选择cpu版本 然后得到安装命令
+
+
 
 
 
 然后安装yolo
-在git上搜索yolo，选择合适的版本下载，下载zip版
-解压，这里直接解压到桌面，并从终端进入文件夹
-source ~/.bashrc
+在git上搜索yolo，选择任意版本下载
+这里为了方便测试，我使用yolo v5
+
+
 输入指令进入环境：
 conda activate <你的环境>
 例如我的：
@@ -59,3 +62,4 @@ pip install -U -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 打开detect.py文件
 设置python解释器，选择My_torch
 点击运行，可以看到输出
+测试运行的运行结果在该文件夹下的runs文件夹下，可进行查看
