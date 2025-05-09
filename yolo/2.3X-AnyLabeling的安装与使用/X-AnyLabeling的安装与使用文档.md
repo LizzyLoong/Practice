@@ -34,6 +34,8 @@ pyrcc5 -o anylabeling/resources/resources.py anylabeling/resources/resources.qrc
 ## 防止冲突
 pip uninstall anylabeling -y
 ```
+
+# 运行
 ## 安装完成后运行app.py
 python anylabeling/app.py
 
